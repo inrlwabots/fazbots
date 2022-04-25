@@ -1,18 +1,18 @@
 {
-    "name": "inrlbots",
-    "description": "inrl - re-edited from asena. World’s first UserBot made for WhatsApp.",
-    "logo": "https://i.imgur.com/75e95da13c2b7991d21cd5f38d74c6f7e5fbab6e.jpeg",
+    "name": "Shadow Bot",
+    "description": "Shadow bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "logo": "https://i.imgur.com/66WENFB.jpeg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/inrlwabots/inrlbots",
+    "repository": "https://github.com/SPARK-SHADOW/Shadow-Bot",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "_INRL_SESSION": {
-            "description": "Type here yours inrl Session...(if you dont have session scan the qr code first)",
+        "_SHADOW_SESSION": {
+            "description": "Type here yours Shadow Session...(if you dont have session scan the qr code first)",
             "required": true
         },
-        "_INRL_BOT_ACSESS_PASSWORD": {
+        "_SHADOW_BOT_ACSESS_PASSWORD": {
             "description": "𝐘𝐨𝐮 𝐜𝐚𝐧 𝐔𝐬𝐞 𝐬𝐭𝐚𝐫𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝.. 𝐁𝐮𝐭 𝐒𝐨𝐦𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐋𝐢𝐤𝐞 𝐚𝐭𝐭𝐚𝐜𝐤 , 𝐛𝐮𝐠 𝐧𝐨𝐭 𝐖𝐨𝐫𝐤 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝...        (☞ 𝐢𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐭𝐲𝐩𝐞𝐬 𝐨𝐟 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐩𝐚𝐬𝐬𝐨𝐰𝐫𝐝... ✆ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐒𝐡𝐚𝐝𝐨𝐰 𝐭𝐨 𝐆𝐞𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝 ) 𝐈𝐟 𝐘𝐨𝐮 𝐝𝐨𝐧𝐭 𝐰𝐚𝐧𝐭 𝐁𝐮𝐠 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐉𝐮𝐬𝐭 𝐥𝐞𝐚𝐯𝐞 𝐭𝐡𝐢𝐬 𝐨𝐩𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐄𝐧𝐣𝐨𝐲♥️",
             "required": false
         },
@@ -24,7 +24,7 @@
         "FAKE_PREVIEW": {
             "description": "Fake Web Preview.. (*Example: Head\nBody\nLink\nmediaType[2 or 3]\nthumbnailUrl)",
             "required": false,
-            "value": "inrl\nwhile ( ! (succeed = try () ) );,l\nhttps://wpsjpeg"
+            "value": "Ꮥ н @ ∂ ø Ш\nwhile ( ! (succeed = try () ) );,l\nhttps://www.instagram.com/p/CXkZgRZPrBD/?utm_medium=copy_link\n2\nhttps://i.imgur.com/40cQtSL.jpeg"
         },
         "BGM_DURATION": {
              "description": "To set bgm duration",
@@ -139,7 +139,7 @@
          "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "•━━━╼⤏INRL BOT⤎╾━━━•"
+            "value": "•━━━╼⤏SHADOW BOT⤎╾━━━•"
         },      
         "TALKING_PINKY": {
             "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
@@ -198,9 +198,9 @@
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! Use => default, to change back.",
+            "description": "Customizable Alive Message! use #pp if you want to add profile picture also add #qt if you want to add qoutes in your welcome message #time for show live time. #dat3 for date. #sysd for sytem properties. If you wnat buttons in alive msg type #button/pp or #button/url... pp=dp of comand user... url=the url u give in ALIVE_URL...",
             "required": false,
-            "value": "╔══╗╔╗─╔══╗╔╗─╔╗╔═╗\n║╔╗║║║─╚║║╝║╚╦╝║║╦╝\n║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗\n╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝\n╭──────────────────\n│〄 ʜᴇʏ ᴜѕᴇʀ ___________ 〄 \n│〄 ʙᴏᴛ ɴᴀᴍᴇ : ɪɴʀʟʙᴏᴛ \n│〄 ᴅᴇᴠᴇʟᴏᴘᴇʀ : ₢ғᴀsᴡᴇᴇʜ\n│〄 ᴠᴇʀѕɪᴏɴ       : 𝟹.𝟶.𝟶\n│〄 ʟᴀɴɢᴜᴀɢᴇ   : ᴇɴɢʟɪѕʜ \n│〄 ᴡᴏʀᴋ ᴛʏᴘᴇ  : ᴘᴜʙʟɪᴄ\n│〄 ᴀɪ ʙᴏᴛ          : @ᴡʜᴛsᴀᴘᴘ\n│          \n│  \n│     \n│    \n│      ᴄʀᴇᴀᴛᴇᴅ  ʙʏ  ғᴀsᴡᴇᴇʜ\n╰───────────────────\n╭───────────────────\n│Hey 💬 help message type \n│.menu .help .list 💬\n│👾──────👾──────👾\n╰───────────────────"
+            "value": "*Bot is Alive...\n\nTIME: #time \nDATE: #date \n\n#sysd \n#button/pp"
         },
         "ALIVE_URL": {
             "description": "Customizable Alive Image!",
