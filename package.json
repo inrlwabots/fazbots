@@ -2,7 +2,7 @@
   "name": "inrl-Bot",
   "version": "7.3.6",
   "description": "inrl is the Modified Version of WhatsAsena.",
-  "main": "./inrl/bot.js",
+  "main": "./inrl-bots/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
@@ -17,8 +17,8 @@
     "Inrl-Bot",
     "Ashin"
   ],
-  "author": "Ashin",
-  "developer": "@faseeh",
+  "author": "fasweeh",
+  "developer": "@fasweeh",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/inrlwabots/inrl/issues"
