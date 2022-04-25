@@ -1,8 +1,8 @@
 {
-  "name": "inrl-Bot",
+  "name": "inrlBot",
   "version": "7.3.6",
   "description": "inrl is the Modified Version of WhatsAsena.",
-  "main": "./Shadow-Bot/bot.js",
+  "main": "./inrlbots/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
@@ -21,9 +21,9 @@
   "developer": "@fasweeh",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/SPARK-SHADOW/Shadow-Bot.git/issues"
+    "url": "https://github.com/inrlwabot/inrlBot.git/issues"
   },
-  "homepage": "https://github.com/SPARK-SHADOW/Shadow-Bot.git#readme",
+  "homepage": "https://github.com/inrlwabot/inrlBot.git#readme",
   "dependencies": {
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.1",
