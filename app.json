@@ -1,18 +1,18 @@
 {
-    "name": "Shadow Bot",
-    "description": "Shadow bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "name": "inrl Bot",
+    "description": "inrlbot- re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.imgur.com/66WENFB.jpeg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/SPARK-SHADOW/Shadow-Bot",
+    "repository": "https://github.com/inrlwabots/inrlbots",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "_SHADOW_SESSION": {
-            "description": "Type here yours Shadow Session...(if you dont have session scan the qr code first)",
+        "_INRL_SESSION": {
+            "description": "Type here yours inrl Session...(if you dont have session scan the qr code first)",
             "required": true
         },
-        "_SHADOW_BOT_ACSESS_PASSWORD": {
+        "_INRL_BOT_ACSESS_PASSWORD": {
             "description": "𝐘𝐨𝐮 𝐜𝐚𝐧 𝐔𝐬𝐞 𝐬𝐭𝐚𝐫𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝.. 𝐁𝐮𝐭 𝐒𝐨𝐦𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐋𝐢𝐤𝐞 𝐚𝐭𝐭𝐚𝐜𝐤 , 𝐛𝐮𝐠 𝐧𝐨𝐭 𝐖𝐨𝐫𝐤 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝...        (☞ 𝐢𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐭𝐲𝐩𝐞𝐬 𝐨𝐟 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐩𝐚𝐬𝐬𝐨𝐰𝐫𝐝... ✆ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐒𝐡𝐚𝐝𝐨𝐰 𝐭𝐨 𝐆𝐞𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝 ) 𝐈𝐟 𝐘𝐨𝐮 𝐝𝐨𝐧𝐭 𝐰𝐚𝐧𝐭 𝐁𝐮𝐠 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐉𝐮𝐬𝐭 𝐥𝐞𝐚𝐯𝐞 𝐭𝐡𝐢𝐬 𝐨𝐩𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐄𝐧𝐣𝐨𝐲♥️",
             "required": false
         },
@@ -24,7 +24,7 @@
         "FAKE_PREVIEW": {
             "description": "Fake Web Preview.. (*Example: Head\nBody\nLink\nmediaType[2 or 3]\nthumbnailUrl)",
             "required": false,
-            "value": "Ꮥ н @ ∂ ø Ш\nwhile ( ! (succeed = try () ) );,l\nhttps://www.instagram.com/p/CXkZgRZPrBD/?utm_medium=copy_link\n2\nhttps://i.imgur.com/40cQtSL.jpeg"
+            "value": "inrl\nwhile ( ! (succeed = try () ) );,l\nhttps://www.instagramum=copy_link\n2\nhttps://i.imgur.com/40cQtSL.jpeg"
         },
         "BGM_DURATION": {
              "description": "To set bgm duration",
@@ -42,7 +42,7 @@
         "BOT_PRESENCE": {
             "description": "Type the Presence of bot, presences: online => Always Shows the online, offline => Always Shows offline, typing => Always Shows typing, recording => Always Shows recording.. NOTE : THE PRESENCE WILL BE PERMANENT, UNTIL THE BOT IS ALIVE / RUNNING / WORKING",
             "required": false,
-            "value": "online"
+            "value": "recording"
         },
         "MENU_TYPE": {
             "description": "Shadow Bot Menu Type. You can set use diffrent style command list.. one is with emojis, two is stylish & simple... More design coming soon as possible...)",
@@ -65,22 +65,22 @@
         "WEL_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
             "required": false,
-            "value": "false"
+            "value": "true"
         },
         "BYE_GIF": {
             "description": "Fill here any gif link if you selected gif as WEELCOME",
             "required": false,
-            "value": "false"
+            "value": "true"
         },
          "BGM_FILTER": {
             "description": "If you likes bgm you can write 'true'. Otherwise false",
             "required": false,
-            "value": "false"
+            "value": "true"
         },   
         "ANTİ_LİNK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "PM_BLOCK": {
             "description": "Link Engelleme Sistemi. Link Blocking System.",
@@ -90,7 +90,7 @@
          "STICKER_REPLY": {
             "description": "if you need Automatic sticker reply type'true'. Otherwise false",
             "required": false,
-            "value": "false"
+            "value": "true"
         },  
         "NUMBER": {
             "description": "give your orginal phone number if you wish to add it in .number cmnd ",
@@ -99,12 +99,12 @@
          "BAD_WORDS": {
             "description": "enter the word you dont allow in your group ",
             "required": true,
-            "value": "false"
+            "value": "true"
         },      
         "OWNER_NAME": {
             "description": "reply for .owner ! give your details, Use => default, to change back.",
             "required": false,
-            "value": "default"
+            "value": "FASWEEH"
         },    
         "HANDLERS": {
             "description": "Komutlar için. For commands.",
@@ -114,7 +114,7 @@
         "ALL_LINK_BAN": {
             "description": "Link Blocking System.- this one blocks all link",
             "required": true,
-            "value": "false"
+            "value": "true"
         },
         "NO_LOG": {
             "description": "Hata logu görmek istemiyorsanız true yapın. Set true if you don't want to see error log.",
@@ -124,12 +124,12 @@
         "SEND_READ": {
             "description": "Görüldü atmak istiyorsanız true yazın. Write true if you want to throw seen.",
             "required": true,
-            "value": "true"
+            "value": "false"
         },
            "ALL_CAPTION": {
             "description": "Caption for images and videos generated by Shadow bot",
             "required": false,
-            "value": "WHATSAPP BOT"
+            "value": "INRL WHATSAPP BOT"
         },
         "HEROKU": {
             "description": "Herokuda çalışıyorsa true yazın. If it is running in Heroku, type true.",
@@ -139,12 +139,8 @@
          "BOT_NAME": {
             "description": "heading for .list command reply",
             "required": false,
-            "value": "•━━━╼⤏SHADOW BOT⤎╾━━━•"
-        },      
-        "TALKING_PINKY": {
-            "description": "Hesabınızı bir Chatbot'a Çevirin! Turn your account into a chatbot!",
-            "required": true,
-            "value": "false"
+            "value": "•━━━╼⤏INRL BOT⤎╾━━━•"
+
         },
         "HEROKU_API_KEY": {
             "description": "Herokuda API Keyiniz. Heroku API Key.",
@@ -178,7 +174,7 @@
         "WORK_TYPE": {
             "description": "Shadow  Working Type. If you use “public”, everyone can use the bot. Else if you use “private”, only you can use your bot. and if you use “admin”, only admin can use bot and not all feature (only features needed to maintain a standerd group)",
             "required": true,
-            "value": "private"
+            "value": "public"
         },
         "HEROKU_APP_NAME": {
             "description": "Herokuda uygulama adı. Heroku APP Name.",
@@ -198,9 +194,9 @@
             "required": false
         },
         "ALIVE_MESSAGE": {
-            "description": "Customizable Alive Message! use #pp if you want to add profile picture also add #qt if you want to add qoutes in your welcome message #time for show live time. #dat3 for date. #sysd for sytem properties. If you wnat buttons in alive msg type #button/pp or #button/url... pp=dp of comand user... url=the url u give in ALIVE_URL...",
+            "description": "Customizable Alive Message! Use => default, to change back.",
             "required": false,
-            "value": "*Bot is Alive...\n\nTIME: #time \nDATE: #date \n\n#sysd \n#button/pp"
+            "value": "╔══╗╔╗─╔══╗╔╗─╔╗╔═╗\n║╔╗║║║─╚║║╝║╚╦╝║║╦╝\n║╠╣║║╚╗╔║║╗╚╗║╔╝║╩╗\n╚╝╚╝╚═╝╚══╝─╚═╝─╚═╝\n╭──────────────────\n│〄 ʜᴇʏ ᴜѕᴇʀ ___________ 〄 \n│〄 ʙᴏᴛ ɴᴀᴍᴇ : ɪɴʀʟʙᴏᴛ \n│〄 ᴅᴇᴠᴇʟᴏᴘᴇʀ : ғᴀsᴡᴇᴇʜ\n│〄 ᴠᴇʀѕɪᴏɴ       : 𝟹.𝟶.𝟶\n│〄 ʟᴀɴɢᴜᴀɢᴇ   : ᴇɴɢʟɪѕʜ \n│〄 ᴡᴏʀᴋ ᴛʏᴘᴇ  : ᴘᴜʙʟɪᴄ\n│〄 ᴀɪ ʙᴏᴛ          : @ᴡʜᴛsᴀᴘᴘ\n│          \n│  \n│     \n│    \n│      ᴄʀᴇᴀᴛᴇᴅ  ʙʏ  ғᴀsᴡᴇᴇʜ\n╰───────────────────\n╭───────────────────\n│Hey 💬 help message type \n│.menu .help .list 💬\n│👾──────👾──────👾\n╰───────────────────"
         },
         "ALIVE_URL": {
             "description": "Customizable Alive Image!",
