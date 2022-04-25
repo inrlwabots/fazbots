@@ -204,7 +204,7 @@
             "UPLOADING_SONG": "ɪɴʀʟʙᴏᴛ ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ",
             "UPLOADING_SING": " ᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ",
             "VIDEO_DESC": "Downloads video from YouTube.",
-            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=t1r_tmgQago``` \n\nif .video does not work try .get",
+            "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://youtu.be/cN5aQqVZXG4``` \n\nif .video does not work try .get",
             "DOWNLOADING_VIDEO": "ɪɴʀʟʙᴏᴛ ᴡᴀɪᴛ ᴀᴍ ꜱᴇᴀʀᴄʜɪɴɢ",
             "UPLOADING_VIDEO": "ʜᴀʜᴀ ɪɴʀʟʙᴏᴛ ꜰᴏᴜɴᴅ ɪᴛ",
             "YT_DESC": "It searchs on YouTube.",
