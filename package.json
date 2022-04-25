@@ -2,19 +2,19 @@
   "name": "inrl-Bot",
   "version": "7.3.6",
   "description": "inrl is the Modified Version of WhatsAsena.",
-  "main": "./Shadow-Bot/bot.js",
+  "main": "./inrl/bot.js",
   "scripts": {
     "start": "supervisor -s bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SPARK-SHADOW/Shadow-Bot.git"
+    "url": "git+https://github.com/inrlwabots/inrl.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "ai",
-    "Shadow-Bot",
+    "Inrl-Bot",
     "Ashin"
   ],
   "author": "Ashin",
