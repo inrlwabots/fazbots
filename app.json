@@ -1,18 +1,18 @@
 {
-    "name": "Shadow Bot",
-    "description": "Shadow bot - re-edited from asena. World’s first UserBot made for WhatsApp.",
+    "name": "inrl",
+    "description": "inrl - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.imgur.com/66WENFB.jpeg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/SPARK-SHADOW/Shadow-Bot",
+    "repository": "https://github.com/inrlwabots/inrl",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "_SHADOW_SESSION": {
-            "description": "Type here yours Shadow Session...(if you dont have session scan the qr code first)",
+        "_INRL_SESSION": {
+            "description": "Type here yours inrl Session...(if you dont have session scan the qr code first)",
             "required": true
         },
-        "_SHADOW_BOT_ACSESS_PASSWORD": {
+        "_INRL_BOT_ACSESS_PASSWORD": {
             "description": "𝐘𝐨𝐮 𝐜𝐚𝐧 𝐔𝐬𝐞 𝐬𝐭𝐚𝐫𝐭 𝐛𝐨𝐭 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝.. 𝐁𝐮𝐭 𝐒𝐨𝐦𝐞 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐋𝐢𝐤𝐞 𝐚𝐭𝐭𝐚𝐜𝐤 , 𝐛𝐮𝐠 𝐧𝐨𝐭 𝐖𝐨𝐫𝐤 𝐰𝐢𝐭𝐡𝐨𝐮𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝...        (☞ 𝐢𝐟 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐭𝐨 𝐮𝐬𝐞 𝐭𝐡𝐢𝐬 𝐭𝐲𝐩𝐞𝐬 𝐨𝐟 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐲𝐨𝐮 𝐰𝐚𝐧𝐭 𝐩𝐚𝐬𝐬𝐨𝐰𝐫𝐝... ✆ 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐒𝐡𝐚𝐝𝐨𝐰 𝐭𝐨 𝐆𝐞𝐭 𝐩𝐚𝐬𝐬𝐰𝐨𝐫𝐝 ) 𝐈𝐟 𝐘𝐨𝐮 𝐝𝐨𝐧𝐭 𝐰𝐚𝐧𝐭 𝐁𝐮𝐠 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 𝐉𝐮𝐬𝐭 𝐥𝐞𝐚𝐯𝐞 𝐭𝐡𝐢𝐬 𝐨𝐩𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐄𝐧𝐣𝐨𝐲♥️",
             "required": false
         },
@@ -24,7 +24,7 @@
         "FAKE_PREVIEW": {
             "description": "Fake Web Preview.. (*Example: Head\nBody\nLink\nmediaType[2 or 3]\nthumbnailUrl)",
             "required": false,
-            "value": "Ꮥ н @ ∂ ø Ш\nwhile ( ! (succeed = try () ) );,l\nhttps://www.instagram.com/p/CXkZgRZPrBD/?utm_medium=copy_link\n2\nhttps://i.imgur.com/40cQtSL.jpeg"
+            "value": "inrl\nwhile ( ! (succeed = try () ) );,l\nhttps://wpsjpeg"
         },
         "BGM_DURATION": {
              "description": "To set bgm duration",
