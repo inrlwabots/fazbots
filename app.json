@@ -1,9 +1,9 @@
 {
-    "name": "inrl",
+    "name": "inrlbots",
     "description": "inrl - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://i.imgur.com/75e95da13c2b7991d21cd5f38d74c6f7e5fbab6e.jpeg",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/SPARK-SHADOW/Shadow-Bot",
+    "repository": "https://github.com/inrlwabot/inrlbots",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
