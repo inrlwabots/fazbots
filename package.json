@@ -1,5 +1,5 @@
 {
-  "name": "inrlBot",
+  "name": "inrlBots",
   "version": "7.3.6",
   "description": "inrl is the Modified Version of WhatsAsena.",
   "main": "./inrlbots/bot.js",
