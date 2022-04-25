@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/SPARK-SHADOW/Shadow-Bot.git/issues"
   },
-  "homepage": "https://github.com/inrlwabots/inrl#readme",
+  "homepage": "https://github.com/SPARK-SHADOW/Shadow-Bot.git#readme",
   "dependencies": {
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.1",
