@@ -318,7 +318,7 @@ function _0x3067(_0x57f48d,_0x443566){const _0x898e4f=_0x898e();return _0x3067=f
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '__ShadowBot_☠☠_[error] ' +
+                                await conn.sendMessage(conn.user.jid, '__inrlBot_☠☠_[error] ' +
                                     '\n\n*👻 ' + error + '*\n'
                                     , MessageType.text);
                             }
