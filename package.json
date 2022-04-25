@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inrlwabots/inrl.git"
+    "url": "git+https://github.com/inrlwabots/inrlbots.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "ai",
-    "Inrl-Bot",
+    "InrlBots",
     "Ashin"
   ],
   "author": "fasweeh",
