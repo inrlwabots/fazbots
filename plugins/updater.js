@@ -32,7 +32,7 @@ MyPnky.addCommand({pattern: 'update$', fromMe: true, dontAddCommandList: true, d
         var shadowupdate = Lang.NEW_UPDATE;
                 commits['all'].map(
                     (commit) => {
-                        shadowupdate += '│➩ [' + commit.date.substring(0, 10) + '] ➠  *' + commit.message + '*   ↱ ' + commit.author_name + ' ↲\n';
+                        inrlupdate += '│➩ [' + commit.date.substring(0, 10) + '] ➠  *' + commit.message + '*   ↱ ' + commit.author_name + ' ↲\n';
                     }
                 );
         
