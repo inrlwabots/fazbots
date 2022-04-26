@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-re-editted by Shadow
-Shadow-Bot
+re-editted by inrl
+InrlBot
 */
 
 const Shadow = require('../events');
