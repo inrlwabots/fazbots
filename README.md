@@ -6,7 +6,7 @@
 4. Click [FORK](https://github.com/SPARK-SHADOW/Shadow-Bot/fork)
 5. Click the url showing below to copy deploy template
 ```
-https://heroku.com/deploy?template=https://github.com/inrlwabots/inrl
+https://heroku.com/deploy?template=https://github.com/inrlwabots/inrlbots
 ``` 
 6. Now change inrlwabots with your github username and click ENJOY<br>
    <br>
