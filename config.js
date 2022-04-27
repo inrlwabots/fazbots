@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-re edited by Shadow
-Shadow
+re edited by inrl
+inrl
 */
 
 const { Sequelize } = require('sequelize');
@@ -18,7 +18,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v7.3.6',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env._SHADOW_SESSION === undefined ? '' : process.env._SHADOW_SESSION,
+    SESSION: process.env._INRL_SESSION === undefined ? '' : process.env._INRL_SESSION,
     RBG_API_KEY: process.env.RBG_API_KEY === undefined ? '' : process.env.RBG_API_KEY,
     DURATION: process.env.BGM_DURATION === undefined ? '0' : process.env.BGM_DURATION,
     BOT_PRESENCE: process.env.BOT_PRESENCE === undefined ? 'online' : process.env.BOT_PRESENCE,
@@ -34,7 +34,7 @@ module.exports = {
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     ALIVEURL: process.env.ALIVE_URL === undefined ? 'https://i.imgur.com/9XdouSJ.jpeg' : process.env.ALIVE_URL,
-    AFNN: process.env.TAG_REPLY === undefined ? '919526808481@s.whatsapp.net' : process.env.TAG_REPLY,
+    AFNN: process.env.TAG_REPLY === undefined ? '917025099161@s.whatsapp.net' : process.env.TAG_REPLY,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
@@ -42,7 +42,7 @@ module.exports = {
     PLKIMG: process.env.LIST_IMG === undefined ? 'https://i.imgur.com/zdcqaaG.jpeg' : process.env.LIST_IMG,
     WEL_GIF: process.env.WEL_GIF === undefined ? 'https://i.imgur.com/nErXUGj.mp4' : process.env.WEL_GIF,
     GIF_BYE: process.env.GIF_BYE === undefined ? 'https://i.imgur.com/Z1jCYGN.mp4' : process.env.GIF_BYE,
-    BOTPLK: process.env.BOT_NAME === undefined ? 'SHADOW BOT' : process.env.BOT_NAME,
+    BOTPLK: process.env.BOT_NAME === undefined ? 'INRL BOT' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     TALKING_PINKY: process.env.TALKING_PINKY === undefined ? 'false' : process.env.TALKING_PINKY,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
