@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inrlwabots/inrlbots.git"
+    "url": "git+https://github.com/inrlwabots/fazbots.git"
   },
   "keywords": [
     "whatsapp",
@@ -21,9 +21,9 @@
   "developer": "@fasweeh",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/inrlwabots/inrlbots/issues"
+    "url": "https://github.com/inrlwabots/fazbots/issues"
   },
-  "homepage": "https://github.com/inrlbots/inrlbots#readme",
+  "homepage": "https://github.com/inrlwabots/fazbots#readme",
   "dependencies": {
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.1",
